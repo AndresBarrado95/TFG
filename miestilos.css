@@ -1,0 +1,45 @@
+
+form {
+    margin: 0 auto;
+    width: 300px;
+    position:absolute;
+    bottom: 40px;
+    right:550px;
+    float:left;
+}
+form div + div {
+	margin-top: 1em;
+}
+div {
+	margin: .4em 0;
+}
+div label{
+	width: 45%;
+	float: left;
+}
+input{
+	width: 50%;
+    
+}
+output{
+    width: 50%;
+    /*background-color: #A9A9A9;*/
+}
+img{
+    margin:10px auto;
+    display:block;
+    width: 1200px;
+    height: 400px;
+}
+#div4{
+   position:absolute;
+   bottom:35%;
+   right:-110%;
+   width:100%;
+   
+}
+#div5{
+    position:absolute;
+    bottom:10%;
+    right:-140%;
+}
