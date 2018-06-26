@@ -28,8 +28,8 @@ output{
 img{
     margin:10px auto;
     display:block;
-    width: 1200px;
-    height: 400px;
+    max-width: 1200px;
+    max-height: 400px;
 }
 #div4{
    position:absolute;

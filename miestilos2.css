@@ -1,0 +1,11 @@
+div.crop-img {
+	max-width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+}
+div.crop-img img {
+	display: block;
+	max-width: none;
+}
