@@ -9,3 +9,18 @@ div.crop-img img {
 	display: block;
 	max-width: none;
 }
+
+
+#div1{
+   position:absolute;
+   top: 50%;
+   left:10%;
+   
+}
+#div2{
+    position:absolute;
+    top:60%;
+   	left:10%;
+}
+
+
