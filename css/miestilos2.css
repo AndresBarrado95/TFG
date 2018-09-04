@@ -1,20 +1,41 @@
-
-#resultado {
-	height: 500px;
-	width:800px;
-	border: 1px solid #ddd;
-	background: #f1f1f1;
-	overflow-y: scroll;
-	position:absolute;
-  top: 5%;
-  right:5%;
-
+body{
+	background-color:#F5FFFA;
 }
 
+#resultado {
+	height: 90%;
+	width:60%;
+	border: 1px solid #ddd;
+	overflow-y: scroll;
+	position:absolute;
+  	top: 5%;
+    right:5%;
+    background-color:#FFFFFF;
+
+}
+#formulario{
+	position:absolute;
+	width:25%;
+	height:25%;
+	overflow: hidden;
+	top:60%;
+	left:5%;
+}
+#caja{
+	position:absolute;
+	width:25%;
+	height:25%;
+	border: 1px solid #ddd;
+	overflow: scroll;
+	background-color:#FFFFFF;
+	top:5%;
+	left:5%;
+}
 #fondo {
 	position:absolute;
 	top :5%;
 	left:5%;
+
 }
 #super-fondo {
   position:absolute;
@@ -30,13 +51,19 @@ div.crop-img{
 
 #div1{
    position:absolute;
-   top: 60%;
+   top: 5%;
    left:5%;
    
 }
 #div2{
     position:absolute;
-    top:70%;
+    top:80%;
    	left:5%;
 }
+#etiqueta-imagen{
+  position:absolute;
+  top:40%;
+  left:5%;
+}
+
 

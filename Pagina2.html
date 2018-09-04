@@ -6,24 +6,30 @@
  </head>
  <body> 	
  		<div id='resultado'></div>
- 		<div id='fondo'  class='crop-img' >
- 			<img  id='imagen' src='http://img2.rtve.es/v/1451521/' ></img>
- 		</div>
- 		<div id='super-fondo' class="crop-img">
- 			<img  id='super-imagen' src='imagen/image.png'  ></img>
- 		</div>
- 		<form name="parametros pagina2" id="pagina2" >
- 			<div id="div1">
- 				<button type="button" id="previous">Previous</button>
- 				<input type="number" id="numeroParticulasCapturadas"/>
- 				<button type="button" id="next">Next</button>
+ 		<div id='caja'>
+ 			<div id='fondo'  class='crop-img' >
+ 				<img  id='imagen' src='http://img2.rtve.es/v/1451521/' ></img>
  			</div>
- 			<div id="div2">
- 				<button type="button">Back</button>
- 				<button type="button">Overview</button>
- 				<button type="button">Continue</button>
+ 			<div id='super-fondo' class="crop-img">
+ 				<img  id='super-imagen' src='imagen/image.png'  ></img>
  			</div>
- 		</form>
+ 		</div>
+ 		
+ 		<div id='formulario'>
+ 			<form name="parametros pagina2" id="pagina2" >
+ 				<div id="div1">
+ 					<button type="button" id="previous">Previous</button>
+ 					<input type="number" id="numeroParticulasCapturadas"/>
+ 					<button type="button" id="next">Next</button>
+ 				</div>
+ 				<div id="div2">
+ 					<button type="button">Back</button>
+ 					<button type="button">Overview</button>
+ 					<button type="button">Continue</button>
+ 				</div>
+ 			</form>
+ 			<div id='etiqueta-imagen'></div>
+ 		</div>
    	
  	<script type="text/javascript" src= "js/app2.js"></script>
  </body>
